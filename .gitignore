@@ -7,8 +7,14 @@ __pycache__/
 *.so
 
 # Data
-.csv
-.xlsx
+# Ignore raw and processed datasets
+data/
+dataset/
+*.csv
+*.xlsx
+*.parquet
+*.pkl
+
 # Distribution / packaging
 .Python
 build/
